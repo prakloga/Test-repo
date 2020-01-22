@@ -1,0 +1,9 @@
+Description: >
+  Prakash Loganathan / Udacity 2020
+  This template deploys a VPC
+Resources:
+  myVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsHostnames: "true"
